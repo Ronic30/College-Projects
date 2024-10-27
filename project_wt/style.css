@@ -1,4 +1,112 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(10,10,10);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.hd_pt1{
+    background-color: rgb(255,255,255);
+    height: 40px;
+    width: 1530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oth1{
+    font-weight:bold;
+}
+
+.hd_pt2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.hd_pt2_1{
+    width: 160px;
+}
+
+.hd_pt2_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.transp_logo{
+    width: 150px;
+    padding: 10px 0 0 5px ;
+}
+
+.oth2{
+    padding: 20px;
+}
+
+.hd_pt2_2_a:hover{
+    color:rgb(232, 70, 21);
+}
+
+.hd_pt2_2_a{
+    font-size: large;
+    font-weight: 200;
+}
+
+.hd_pt2_3{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.oth3{
+    padding: 15px;
+    width: 30px;
+}
+
+.mySlides{
+    padding: 30px;
+    border-radius:80px ;
+    width: 1360px;
+}
+
+.mn_pt1_1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mn_pt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
