@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(10,10,10);
+    background-color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;   
@@ -9,22 +9,22 @@ body{
 
 a:link {
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 a:visited {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 a:active {
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 header{
@@ -34,9 +34,9 @@ header{
 }
 
 .hd_pt1{
-    background-color: rgb(255,255,255);
+    background-color: rgb(0, 0, 0);
     height: 40px;
-    width: 1530px;
+    /* width: 1521px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,6 +44,7 @@ header{
 
 .oth1{
     font-weight:bold;
+    color: white;
 }
 
 .hd_pt2{
@@ -97,8 +98,8 @@ header{
     width: 1360px;
 }
 
-.mn_pt1_1{
-    color: white;
+.oth111{
+    color: rgb(0, 0, 0);
     font-size: 50px;
     font-weight: 400;
     text-align: center;
@@ -110,3 +111,4 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+
