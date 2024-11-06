@@ -60,10 +60,6 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    position: sticky;
-    top: 10px;
-    background-color: white;
-    opacity: 0.9;
 }
 
 .hd_pt2_1{
