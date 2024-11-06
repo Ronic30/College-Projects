@@ -36,7 +36,6 @@ header{
 .hd_pt1{
     background-color: rgb(0, 0, 0);
     height: 40px;
-    /* width: 1521px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
