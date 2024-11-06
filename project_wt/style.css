@@ -36,6 +36,10 @@ header{
     display: flex;
     flex-direction: column;
     height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    opacity: 0.9;
 }
 
 .hd_pt1{
@@ -56,6 +60,10 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 120px;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    opacity: 0.9;
 }
 
 .hd_pt2_1{
@@ -65,6 +73,13 @@ header{
 .hd_pt2_2{
     display: flex;
     justify-content: space-around;
+}
+
+.re1{
+    position: sticky;
+    top: 5px;
+    background-color: white;
+    opacity: 0.9;
 }
 
 .transp_logo{
@@ -142,7 +157,7 @@ header{
 }
 
 .mn_head{
-    margin:40px 20px 10px 20px;
+    margin:60px 20px 10px 20px;
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: 400;
@@ -207,4 +222,41 @@ hr{
 
 .e1{
     margin: 13px;
+}
+
+.mn_pt4_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.we1{
+    width: 326px;
+}
+
+.we2{
+    width: 346px;
+}
+
+.er2{
+    position:absolute;
+    top: 2300px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.wr1{
+    left: 62px;
+}
+
+.wr2{
+    left: 419px;
+}
+
+.wr3{
+    left: 781px;
+}
+
+.wr4{
+    left: 1138px;
 }
