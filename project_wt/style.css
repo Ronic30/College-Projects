@@ -36,10 +36,6 @@ header{
     display: flex;
     flex-direction: column;
     height: 100px;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    opacity: 0.9;
 }
 
 .hd_pt1{
@@ -125,6 +121,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .rl1{
@@ -132,23 +129,23 @@ header{
     flex-direction: column;
 }
 
-.imgrl1,.imgrl2,.imgrl3,.imgrl4{
+.imgrl{
     width: 310px;
 }
 
-.rl1_2,.rl2_2,.rl3_2,.rl4_2{
+.rli2{
     font-size: 15px;
 }
 
-.rl1_3,.rl2_3,.rl3_3,.rl4_3{
+.rli3{
     font-size: 16px;
 }
 
-.rl1_4,.rl2_4,.rl3_4,.rl4_4{
+.rli4{
     font-size: 10px;
 }
 
-.rl1_5,.rl2_5,.rl3_5,.rl4_5{
+.rli5{
     font-size: 14px;
 }
 
