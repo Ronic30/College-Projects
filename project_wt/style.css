@@ -276,3 +276,60 @@ hr{
 .smn_pt1_2{
     display: flex;
 }
+
+footer{
+    margin: 100px 0 0 0;
+    padding: 50px 50px 50px 50px;
+    background-color: black;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.fm{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.f_pt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_item{
+    font-size: 18px;
+}
+
+.f_p1_head{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.af:link {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.af:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.af:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.af:active {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.mail{
+    width: 280px;
+    height: 30px;
+    border-radius: 20px;
+}
