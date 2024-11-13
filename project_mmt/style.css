@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0 50px 0 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.hd_pt1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo1{
+    width: 250px;
+}
+
+.hd_pt2{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 0 20px 0  ;
+}
+
+.a1, .a2:link {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.a1, .a2:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.a1, .a2:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.a1, .a2:active {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.mn_pt1{
+    margin: 20px 0 0 0;
+}
+
+.baner{
+    width: 1424px;
+    border-radius: 20px;
+}
+
+.mn_pt2_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.er{
+    width: 400px;
+    border-radius: 20px;
+    height: 300px ;
+    margin: 20px;
+}
