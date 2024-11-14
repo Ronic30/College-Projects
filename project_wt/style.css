@@ -333,3 +333,25 @@ footer{
     height: 30px;
     border-radius: 20px;
 }
+
+
+.fm_item{
+    font-size: 50px;
+}
+
+.input_box{
+    width: 277px;
+    height: 36px;
+    border-radius: 20px;
+    font-weight: lighter;
+}
+
+.mn_head_pt1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.r{
+    margin: 50px 0 50px 0;
+}
