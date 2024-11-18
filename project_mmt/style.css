@@ -46,7 +46,7 @@ body{
 }
 
 .mn_pt1{
-    margin: 20px 0 0 0;
+    margin: 20px 0 50px 0;
 }
 
 .baner{
@@ -58,6 +58,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .er{
@@ -65,4 +66,68 @@ body{
     border-radius: 20px;
     height: 300px ;
     margin: 20px;
+    opacity: 50
+}
+
+.mn_head{
+    margin:60px 20px 50px 20px;
+    font-size: 75px;
+    text-align: center;
+
+}
+
+.item_nm{
+    font-size: 50px;
+}
+
+.mbaner{
+    width: 1421px;
+}
+
+.mn_subhead{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.mn_itemhead1{
+    font-size: 30px;
+}
+
+.mn_itemimg{
+    margin: 40px;
+}
+
+.v_learn{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.input_box{
+    width: 277px;
+    height: 36px;
+    border-radius: 20px;
+    font-weight: lighter;
+}
+
+.r{
+    margin: 50px 0 50px 0;
+}
+
+.fm_item{
+    font-size: 50px;
+}
+
+.mn_head_pt1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ab{
+    display: flex;
+}
+
+.a{
+    font-weight: bold;
 }
